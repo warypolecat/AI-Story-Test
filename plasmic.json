@@ -1,0 +1,81 @@
+{
+  "platform": "nextjs",
+  "code": {
+    "lang": "ts",
+    "scheme": "blackbox",
+    "reactRuntime": "classic"
+  },
+  "style": {
+    "scheme": "css-modules",
+    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.css"
+  },
+  "images": {
+    "scheme": "public-files",
+    "publicDir": "../public",
+    "publicUrlPrefix": "/"
+  },
+  "tokens": {
+    "scheme": "theo",
+    "tokensFilePath": "plasmic-tokens.theo.json"
+  },
+  "srcDir": "components",
+  "defaultPlasmicDir": "./plasmic",
+  "projects": [
+    {
+      "projectId": "jyvGv1qS6SL9cXwz8bCpSG",
+      "projectApiToken": "H6qcDn1NpNvWqWAtAVhJJbhxeGqmaQVHvODPmBQ43dkd8O9Jy8UpsVZEELL5iBL1IX8PHxN0tzWRQFCfkRww",
+      "projectName": "AI Story Test",
+      "version": "latest",
+      "cssFilePath": "plasmic/ai_story_test/plasmic_ai_story_test.module.css",
+      "components": [
+        {
+          "id": "8ikVV1OB9wqM",
+          "name": "Page1",
+          "type": "managed",
+          "projectId": "jyvGv1qS6SL9cXwz8bCpSG",
+          "renderModuleFilePath": "plasmic/ai_story_test/PlasmicPage1.tsx",
+          "importSpec": {
+            "modulePath": "../pages/index.tsx"
+          },
+          "cssFilePath": "plasmic/ai_story_test/PlasmicPage1.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        }
+      ],
+      "icons": [],
+      "images": [],
+      "indirect": false,
+      "globalContextsFilePath": "",
+      "codeComponents": [
+        {
+          "id": "2Axruu0FgMAUS",
+          "name": "PlasmicHead",
+          "displayName": "hostless-plasmic-head",
+          "componentImportPath": "@plasmicapp/react-web"
+        },
+        {
+          "id": "kfLWJfxgoplqv",
+          "name": "Fetcher",
+          "displayName": "plasmic-data-source-fetcher",
+          "componentImportPath": "@plasmicapp/react-web/lib/data-sources"
+        }
+      ]
+    }
+  ],
+  "globalVariants": {
+    "variantGroups": [
+      {
+        "id": "s6AvrKSC4iwZe",
+        "name": "Screen",
+        "projectId": "jyvGv1qS6SL9cXwz8bCpSG",
+        "contextFilePath": "plasmic/ai_story_test/PlasmicGlobalVariant__Screen.tsx"
+      }
+    ]
+  },
+  "wrapPagesWithGlobalContexts": true,
+  "nextjsConfig": {
+    "pagesDir": "../pages"
+  },
+  "cliVersion": "0.1.289",
+  "$schema": "https://unpkg.com/@plasmicapp/cli@0.1.289/dist/plasmic.schema.json"
+}
